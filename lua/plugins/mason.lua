@@ -11,12 +11,18 @@ return {
       ensure_installed = {
         -- install language servers
         "lua-language-server",
+        "intelephense",
 
         -- install formatters
         "stylua",
+        "php-cs-fixer",
+
+        -- intall linters / analyzer
+        "selene",
+        "phpstan",
 
         -- install debuggers
-        "debugpy",
+        "php-debug-adapter",
 
         -- install any other package
         "tree-sitter-cli",
