@@ -12,6 +12,7 @@ return {
         -- install language servers
         "lua-language-server",
         "intelephense",
+        "phpactor",
 
         -- install formatters
         "stylua",
